@@ -11,6 +11,7 @@ import com.example.thenotesapp.fragments.HomeFragmentDirections
 import com.example.thenotesapp.model.Note
 
 
+
 class NoteAdapter : RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
 
     class NoteViewHolder(val itemBinding: NoteLayoutBinding): RecyclerView.ViewHolder(itemBinding.root)
